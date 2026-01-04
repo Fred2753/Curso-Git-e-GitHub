@@ -8,3 +8,11 @@ pwd -> mostra diretorio de trabalho
 
 clear -> limpa a tela
 
+cat -> exibe conteudo do arquivo
+
+rm -> remove arquivo do diretorio
+
+	rm -rf <arquivo> (r -> recursivo e f -> forçado)
+
+
+

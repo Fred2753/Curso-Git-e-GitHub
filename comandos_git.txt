@@ -1,0 +1,33 @@
+
+1 - Para criar um repo git na pasta atual
+
+git init .
+
+2 - Faz commit do que estava para ser commitado (salvo)
+
+git commit -m "msg"
+
+exemplo: git commit -m "Meu primeiro commit"
+
+3 - Verificar os status do arquivo no git
+	
+git status
+
+4 - configurações globais (e-mail e nome)
+git config --global user.email "email@email.com"
+
+	git config --global user.email "frederico2753@gmail.com"
+	
+git config --global user.name "NOME"
+	
+	git config --global user.name "Frederico Paro"
+
+5 - Verificar as configurações globais (e-mail e nome)
+
+git config --global user.email
+	
+git config --global user.name
+		
+		
+6 - adicionar arquivo para ser commitado
+	git add <nome_arquivo>
