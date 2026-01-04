@@ -31,3 +31,5 @@ git config --global user.name
 		
 6 - adicionar arquivo para ser commitado
 	git add <nome_arquivo>
+
+7 - git log - verificar os check points, mostra todos o historico de commit.
