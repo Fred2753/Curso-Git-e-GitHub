@@ -1,5 +1,4 @@
-
-1 - Para criar um repo git na pasta atual
+1 - Para iniciar uma pasta como git
 
 git init .
 
