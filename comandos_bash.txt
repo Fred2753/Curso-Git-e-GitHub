@@ -1,0 +1,10 @@
+ls -> lista arquivos
+
+ls -a -> lista arquivos ocultos
+
+cd -> move entre diretorios
+
+pwd -> mostra diretorio de trabalho
+
+clear -> limpa a tela
+
