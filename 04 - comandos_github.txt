@@ -1,0 +1,13 @@
+1 - realizar conexão do repo local para repo remoto
+
+	git remote add origin <url repositorio github>
+
+
+	Exemplo:
+ 		git remote add origin https://github.com/Fred2753/Curso-Git-e-GitHub.git
+
+2 - Sincronizar os repo local para remoto
+	
+	git push -u origin main
+
+
