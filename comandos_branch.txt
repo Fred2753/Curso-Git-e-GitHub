@@ -34,6 +34,14 @@
 
 	git merge secundaria (copio tudo da branch secundaria para branch main)
 
+5 - Para deletar uma branch 
+	git branch -D <nome branch>
+
+	exemplo:
+
+	git git branch -D secundaria
+
+
 
 
 
