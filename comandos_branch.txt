@@ -18,4 +18,22 @@
 
 	git branch -m main
 
-4 -
+4 - git merge <nome branch que vai copiar>
+
+	a. entra na branch que vai receber os arquivos e alterações realizadas na outra branch
+
+	git checkout <nome da branch>
+	
+	b. realizar a copia (merge) da branch que tem as alterações.
+	
+	git merge <nome da branch>
+
+	exemplo:
+
+	git checkout main (entro na branch main)
+
+	git merge secundaria (copio tudo da branch secundaria para branch main)
+
+
+
+
