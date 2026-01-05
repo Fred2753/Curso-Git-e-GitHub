@@ -1,0 +1,21 @@
+1 - Para criar uma nova branch
+	git checkout -b "nome da branch"
+
+	exemplo: git checkout -b "secundaria"
+
+2 - para verficiar as branch e qual esta ativa
+	git branch
+
+3 - Para renomear uma branch
+	a. Entra na branch
+		git checkout "nome_branch_antiga"
+	b. renomear a branch
+		git branch -m "nome novo"
+
+	exemplo:
+
+	git checkout master
+
+	git branch -m main
+
+4 -
