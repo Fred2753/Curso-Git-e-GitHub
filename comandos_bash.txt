@@ -14,5 +14,5 @@ rm -> remove arquivo do diretorio
 
 	rm -rf <arquivo> (r -> recursivo e f -> forçado)
 
-
+OK
 
