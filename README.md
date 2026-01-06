@@ -135,5 +135,16 @@ git commit -m "Mensagem padronizada"
 
 		revert: nunca mais falaremos do incidente do miojoRefs: 676104e, a215868
 		
+git push origin <nome da branch padronizado>
 
+>>Realizar um pull request no github para a branch DEVELOP
+	OBS.: VERIFICAR NO GITHUB SE ESTA APONTANDO PARA BRANCH DEVELOP. POR PADRÃO, SEMPRE APONTA PARA MAIN
+
+>>Deletar a branch no remoto
+
+git checkout develop
+
+git branch -D <nome da branch padronizada>
+	
+	exemplo: git branch -D docs/readme
 
