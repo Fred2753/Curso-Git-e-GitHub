@@ -137,7 +137,8 @@ git commit -m "Mensagem padronizada"
 		
 git push origin <nome da branch padronizado>
 
->>Realizar um pull request no github para a branch develop
+>>Realizar um pull request no github para a branch DEVELOP
+	OBS.: VERIFICAR NO GITHUB SE ESTA APONTANDO PARA BRANCH DEVELOP. POR PADRÃO, SEMPRE APONTA PARA MAIN
 
 >>Deletar a branch no remoto
 
