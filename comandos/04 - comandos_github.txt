@@ -1,0 +1,43 @@
+1 - realizar conexão do repo local para repo remoto
+
+	git remote add origin <url repositorio github>
+
+
+	Exemplo:
+ 		git remote add origin https://github.com/Fred2753/Curso-Git-e-GitHub.git
+
+2 - Sincronizar o envio do repo local para remoto
+	
+	git push -u origin main
+
+3 - Sicronizar o recebimento do remoto com o local
+
+	git pull origin main
+
+4 - No repositorio remoto precisamos fazer um "compare & pull request"
+	obs.: Para sincronizar as commit/branch realizados/criadas localmente.
+	
+	>> Merge pull request
+	
+	>> Confirm Merge
+
+5 - git fetch >> comando para sincronizar a main (remoto) com a brach "espelho" origin/main
+	obs.: no repositorio local temos uma brach espelho da main remoto. o endereço dela é origin/main
+
+	para verificar a diferença da main com a origin/main
+
+		git diff main origin/main
+
+	obs.: depois de utilizar o git fetch, precisamos fazer um git merge.
+
+	obs.: o git pull é soma do git fetch com git merge
+
+6 - git restore --staged . ou git restore --staged <nome arquivo>
+
+	o arquivo foi adicionado em branch erroneamente (utilizando o comando git add .),
+	para remover o arquivo da área de stage utilizamos o comando restore.
+
+	
+	
+
+
