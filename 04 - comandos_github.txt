@@ -21,7 +21,23 @@
 	
 	>> Confirm Merge
 
+5 - git fetch >> comando para sincronizar a main (remoto) com a brach "espelho" origin/main
+	obs.: no repositorio local temos uma brach espelho da main remoto. o endereço dela é origin/main
 
+	para verificar a diferença da main com a origin/main
+
+		git diff main origin/main
+
+	obs.: depois de utilizar o git fetch, precisamos fazer um git merge.
+
+	obs.: o git pull é soma do git fetch com git merge
+
+6 - git restore --staged . ou git restore --staged <nome arquivo>
+
+	o arquivo foi adicionado em branch erroneamente (utilizando o comando git add .),
+	para remover o arquivo da área de stage utilizamos o comando restore.
+
+	
 	
 
 
